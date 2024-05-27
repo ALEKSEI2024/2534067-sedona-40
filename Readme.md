@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Алексей Громов](https://up.htmlacademy.ru/htmlcss/40/user/2534067).
-* Наставник: `Неизвестно`.
+- Студент: [Алексей Громов](https://up.htmlacademy.ru/htmlcss/40/user/2534067).
+- Наставник: [Дмитрий Осадченко] (https://htmlacademy.ru/profile/dimaos).
 
 ---
 
