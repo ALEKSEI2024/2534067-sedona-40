@@ -2,7 +2,8 @@
 
 - Студент: [Алексей Громов](https://up.htmlacademy.ru/htmlcss/40/user/2534067).
 - Наставник: [Дмитрий Осадченко] (https://htmlacademy.ru/profile/dimaos).
-- Сайт:  (https://aleksei2024.github.io/2534067-sedona-40/).
+- Сайт: [проект "Седона"] (https://aleksei2024.github.io/2534067-sedona-40/).
+
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
