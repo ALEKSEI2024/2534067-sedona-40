@@ -7,18 +7,204 @@
 }
 @font-face {
   font-family: PT Sans;
-  src: url("./fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-weight: 700;
-  font-style: normal;
+  font-style: bold;
   font-display: swap;
 }
+@font-face {
+  font-family: PT Sans;
+  src: url("../fonts/ptsans-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans Narrow";
+  src: url("../fonts/pt-sans-narrow.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", "sans-serif";
+  font-size: 22px;
+  line-height: 26px;
+  color: black;
+  background-color: #f2f2f2;
+}
+.page-header {
+  color: #000000;
+  background-color: #ffff;
+}
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
 }
 
-.container {
-  width: 600px;
-  height: 300px;
-
-  background: img url(./img\welcome.svg);
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 590px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+.navigation-user {
+  display: flex;
+  max-width: 280px;
+  padding: 0;
+  margin-left: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.page-header a {
+  color: black;
+}
+.main-container {
+  flex-grow: 1;
+}
+.main-index {
+  width: 1200px;
+}
+
+.helou {
+  width: 1200px;
+  height: 450px;
+  background-color: hsl(194, 31%, 86%);
+  background-image: url ("../img/sedona.jpeg");
+  background-repeat: no-repeat;
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.Advantages-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.Advantages .Sedona-2 {
+  position: absolute;
+  width: 1200px;
+  height: 385px;
+  left: 0;
+  right: 33.33%;
+  top: 0;
+  bottom: 0;
+}
+.Advantages-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.Advantages-item {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.Advantages-item p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: none;
+}
+.welcome-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.welcome-item {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.welcome-item p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: none;
+}
+.welcome-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.button{
+  text-align: center;
+}
+.button-title {
+    font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.button p{
+  font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0;
+text-transform: none;
+}
+
+
+.page-footer {
+  width: 1200px;
+
+}
+.Subscribe{
+  text-align: center;
+  background-image: url("../img/sedona fon.jpg");
+}
+
+.footer-social a {
+  color: #000000;
